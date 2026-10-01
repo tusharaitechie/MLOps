@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
+**/artifacts/
+
+# ML model files
+*.skops
+*.pkl
+*.joblib
